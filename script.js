@@ -1,7 +1,5 @@
 const FORM_ACTION_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfV9yA5bCdlBmn-VihPp4ybMoiW_iHuN6fRC0sAzmZKIV9WzQ/formResponse";
-const ENTRY_SCRIPT = "entry.XXXXXXXXX"; // <-- replace with your real entry id
-const ENTRY_UPI = "entry.YYYYYYYYY";    // <-- replace with your real entry id
-
+const ENTRY_SCRIPT = "entry.1729689486"; // <-- replace with your real entry id
 (function () {
   const form = document.getElementById('ik-form');
   const scriptEl = document.getElementById('ik-script');
