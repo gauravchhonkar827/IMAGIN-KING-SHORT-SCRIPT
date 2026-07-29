@@ -130,20 +130,6 @@ textarea#ik-script {
 }
 textarea#ik-script::placeholder { color: #a89d87; }
 
-input#ik-upi {
-  width: 100%;
-  padding: 12px 14px;
-  padding-left: 44px;
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 14px;
-  background: #e4dcc7;
-  border: 1px solid #c9bfa5;
-  border-radius: 3px;
-  color: #2b2620;
-  outline: none;
-}
-input#ik-upi:focus, textarea#ik-script:focus { background: #f6f1e2; }
-
 .ik-hint {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 11px;
@@ -174,7 +160,7 @@ button.ik-submit {
 button.ik-submit:hover { background: #e3b566; }
 button.ik-submit:active { transform: scale(.97); }
 button.ik-submit:disabled { opacity: .5; cursor: not-allowed; }
-button.ik-submit:focus-visible, input:focus-visible, textarea:focus-visible {
+button.ik-submit:focus-visible, textarea:focus-visible {
   outline: 2px solid var(--velvet); outline-offset: 2px;
 }
 
