@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Imagin King — Short Script Submissions</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ik-root">
+    <div class="ik-marquee">
+      <div class="ik-bulbs">
+        <span class="ik-bulb" style="animation-delay:0s"></span>
+        <span class="ik-bulb" style="animation-delay:.2s"></span>
+        <span class="ik-bulb" style="animation-delay:.4s"></span>
+        <span class="ik-bulb" style="animation-delay:.6s"></span>
+        <span class="ik-bulb" style="animation-delay:.8s"></span>
+        <span class="ik-bulb" style="animation-delay:1s"></span>
+        <span class="ik-bulb" style="animation-delay:1.2s"></span>
+      </div>
+      <h1 class="ik-title">Imagin King</h1>
+      <div class="ik-sub">Short Script Submissions</div>
+    </div>
+
+    <div class="ik-wrap">
+      <div class="ik-clapper">
+        <span>TAKE 01</span>
+        <div class="ik-hr"></div>
+        <span>WRITE. SUBMIT. GET PAID.</span>
+      </div>
+
+      <div class="ik-page">
+        <form id="ik-form">
+          <label class="ik-label" for="ik-script">Your Short Script</label>
+          <textarea id="ik-script" name="script" placeholder="FADE IN:&#10;&#10;Likho apna short script yahan..." required></textarea>
+
+          <label class="ik-label" for="ik-upi">Payment ID (UPI)</label>
+          <input id="ik-upi" name="upi" type="text" placeholder="yourname@upi" autocomplete="off" required />
+
+          <div class="ik-msg" id="ik-msg"></div>
+
+          <div class="ik-actions">
+            <button type="submit" class="ik-submit" id="ik-submit-btn">Submit Script</button>
+          </div>
+
+          <div class="ik-hint">
+            Submit karne ke baad aapka script aur UPI ID save ho jayega. Kripya sahi UPI ID dein taaki payment bheji ja sake.
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <iframe name="ik-hidden-iframe" id="ik-hidden-iframe" style="display:none"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
